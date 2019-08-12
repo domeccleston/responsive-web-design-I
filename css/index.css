@@ -162,11 +162,9 @@ h5 {
 
 nav {
   display: flex;
+  justify-content: space-evenly;
   background-color: #fff;
   height: 70px;
-  position: sticky;
-  top: 0;
-  z-index: 1;
 }
 
 nav a {
@@ -178,7 +176,6 @@ nav a {
 }
 
 nav li {
-  padding: 5px 40px 5px 40px;
   border: 0px solid;
   display: flex;
   flex-direction: row;
